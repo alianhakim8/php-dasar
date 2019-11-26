@@ -1,0 +1,12 @@
+1. install git 
+2. add repository in github
+3. create new folder "phpdasar"
+4. git bash di folder yang sudah di buat lalu ketikan "git init"
+5. open repository clone or download 
+6. git clone baru copy paste link eta 
+7. copy file yang akan di upload
+8. ketik git status ( untuk mengetahui hasil edit atau menambahkan file yang akan di upload )
+9. git add . ( menambahkan semua file ke repo )
+10. git commit -m "command"
+11. git push origin master
+12. login 

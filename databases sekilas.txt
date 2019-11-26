@@ -1,0 +1,30 @@
+foreign key
+normalization
+
+struktur pembuatan database tutorial sandhika galih
+
+nama database : phpdasar
+nama tabel : mahasiswa
+_________________________________________________________________________
+| nama field |  tipe data    |			
+| ___________|_______________|___________________________________________
+| no         |  int          | auto_increment
+| foto       |  varchar(100) |
+| nama       |  varchar(100) |
+| keahlian   |  varchar(100) |
+| alamat     |  varchar(100) |
+| id         |  int          | primary key
+--------------------------------------------------------------------------
+
+---------------------- PERINTAH MYSQL ---------------------------
+membuat database = CREATE DATABASE nama_database;
+memilih database = USE nama_database;
+membuat tabel = CREATE TABLE nama_tabel(nama field tipe data ,....);
+menampilkan tabel = SELECT * FROM nama_tabel;
+memasukkan data = INSERT INTO nama tabel VALUES ();
+update isi data tabel = UPDATE nama_tabel SET nama field = .... WHERE primary key = ..
+update nama kolom/field = ALTER TABLE nama_tabel CHANGE nama_kolom nama_kolombaru tipe data;
+mencari data tertentu = SELECT * FROM nama_tabel WHERE primary key = ....
+menghapus data di tabel database = DELETE FROM nama_tabel WHERE primary key = ....
+menghapus tabel = DROP TABLE nama_tabel;
+menampilkan struktur tabel = desc nama_tabel 	
